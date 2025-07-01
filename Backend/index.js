@@ -15,7 +15,7 @@ const indexRouter = require('./routes/indexRoutes');
 //     useUnifiedTopology: true,
 // });
 
-const mongoURI = 'mongodb://localhost:27017/Pharma';
+const mongoURI = 'mongodb://mongodb:27017/Pharma';
 mongoose
 	.connect(mongoURI, {
 		useNewUrlParser:true,
